@@ -21,4 +21,18 @@ Route::get('/comics', function () {
     return view('comics');
 })->name('comics');
 
+Route::get('/contacts', function () {
+    return view('contacts');
+})->name('contacts');
+
+Route::get('/aboutUs', function () {
+    return view('aboutUs');
+})->name('about_us');
+
+Route::get('/privacyPolicy', function () {
+    return view('privacyPolicy');
+})->name('privacy_policy');
+
+
+
 

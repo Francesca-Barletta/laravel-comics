@@ -7,13 +7,13 @@
   </head>
     <title>Laravel- @yield('title','page')</title>
 </head>
-<body>
+<body class="vh-100 d-flex flex-column">
        @include('partials.header')
-<main>
+<main class="flex-grow-1">
           @yield('content')
 </main>
        @include('partials.footer')
    
-
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

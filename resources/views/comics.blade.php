@@ -14,10 +14,10 @@
              <div class="card-body">
                  <p class="card-text">{{ $comic['title'] }}</p>
                  <p class="card-text">{{ $comic['series'] }}</p>
-@endforeach
                  
              </div>
         </div>
+@endforeach
     </div>
 </div>
 
